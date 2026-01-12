@@ -62,16 +62,13 @@ Estimated revenue increases alongside unit sales and does not exhibit prolonged 
 
 Estimated revenue rises alongside unit sales and does not show extended flat or declining periods. This indicates that higher sales volumes are generating higher revenue, suggesting that demand growth is not solely driven by price reductions and reflects economically meaningful demand.
 
-
 ### Weekly Subcategory BSR Trend
 
 The subcategory BSR moves within a broad range and shows frequent ups and downs. Periods of improvement are often followed by declines, indicating active competition. This suggests that while the product can generate sales, competitive pressure in the market remains strong and ongoing.
 
-
 ### Sales and BSR Momentum Alignment
 
 When weekly sales are compared with weekly subcategory BSR, higher sales do not always lead to better rankings. Some weeks show strong sales while rankings remain unchanged or decline. This happens because sales measure how much the product sells on its own, while BSR reflects how it performs relative to competitors. The mismatch shows that competition is increasing and absorbing part of the demand growth, not that demand is missing.
-
 
 ### 7-Day Rolling Average Demand
 
