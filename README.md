@@ -56,27 +56,27 @@ The daily units sold visualization shows a clear upward shift in baseline demand
 ### Estimated Revenue Trend
 
 Estimated revenue increases alongside unit sales and does not exhibit prolonged flat or declining periods. The alignment between rising unit volume and rising revenue indicates that sales growth is not driven solely by aggressive price discounting, reinforcing the conclusion that demand growth is economically meaningful.
----
+
 
 ### Price vs. Units Sold
 
 Estimated revenue rises alongside unit sales and does not show extended flat or declining periods. This indicates that higher sales volumes are generating higher revenue, suggesting that demand growth is not solely driven by price reductions and reflects economically meaningful demand.
----
+
 
 ### Weekly Subcategory BSR Trend
 
 The subcategory BSR moves within a broad range and shows frequent ups and downs. Periods of improvement are often followed by declines, indicating active competition. This suggests that while the product can generate sales, competitive pressure in the market remains strong and ongoing.
----
+
 
 ### Sales and BSR Momentum Alignment
 
 When weekly sales are compared with weekly subcategory BSR, higher sales do not always lead to better rankings. Some weeks show strong sales while rankings remain unchanged or decline. This happens because sales measure how much the product sells on its own, while BSR reflects how it performs relative to competitors. The mismatch shows that competition is increasing and absorbing part of the demand growth, not that demand is missing.
----
+
 
 ### 7-Day Rolling Average Demand
 
 A seven-day rolling average calculates the average sales over the most recent seven days, updating this value each day. This smooths out normal day-to-day fluctuations and highlights the underlying demand trend. After applying this smoothing, demand remains consistently higher and does not return to earlier low levels, indicating that the increase in demand is sustained rather than driven by short-term noise.
----
+
 
 ### Average Daily Demand (Last 14 Days)
 
