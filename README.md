@@ -51,7 +51,7 @@ BSR data provides a relative measure of product performance within its competiti
 ### Daily Units Sold Trend
 
 The daily units sold visualization shows a clear upward shift in baseline demand over time. Early observations remain around 10–16 units per day, while later values consistently reach 17–22 units, with multiple peaks approaching or exceeding 25 units per day. Despite normal daily volatility, there are no extended low-demand periods, indicating sustained and repeatable demand rather than isolated spikes.
----
+
 
 ### Estimated Revenue Trend
 
