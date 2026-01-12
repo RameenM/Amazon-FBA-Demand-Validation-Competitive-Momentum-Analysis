@@ -2,14 +2,10 @@
 
 ## Project Overview
 
-This project evaluates the demand and competitive momentum of an Amazon FBA product to assess whether it is suitable for small-batch testing or scalable investment. At this stage, the analysis deliberately excludes profitability, cost structure, advertising efficiency, and margin calculations. Instead, it focuses on demand validation by examining sales stability, momentum, and competitive behavior.
-
-The analytical framework is designed to support repeatable evaluation of future product opportunities using transparent, pattern-based analysis rather than isolated screenshots or intuition-driven decisions.
-
----
+This project evaluates the demand and competitive momentum of an Amazon FBA product to assess whether it is suitable for small-batch testing or scalable investment. It focuses on demand validation by examining sales stability, momentum, and competitive behavior while keeping other factors such as advertising, cost structures as null. Patter-based analysis with the support of Power BI is used to evaluate future product opportunities. 
 
 ## Product Context
-
+For this project, the following product was used: 
 - **Product:** VORA 2-Tier Spice Organizer for Cabinets  
 - **ASIN:** B0DK724BZP  
 - **Data Source:** Helium 10 (third-party estimates)
@@ -18,13 +14,13 @@ The analytical framework is designed to support repeatable evaluation of future 
 
 ## Product Selection Logic
 
-The product was selected based on a moderate review count of approximately 200 reviews rather than products with extremely high review volumes. Products with very high review counts typically indicate:
+A moderately reviewed product was selected with approximately 200 reviews. This is because high review product reflects:  
 
 - Fully established demand  
 - Strong seller dominance  
 - Outcomes driven primarily by brand trust and historical performance  
 
-In such cases, opportunities for testing, learning, or strategic differentiation are limited.
+Altogether, these factors reduce opportunities for learning, testing or strategic differentiation which is essential for a new business. 
 
 In contrast, products with lower but non-trivial review counts exhibit observable demand while remaining analytically informative. Sales patterns, ranking movement, and competitive shifts remain visible, allowing for clearer assessment of whether demand is emerging, stabilizing, or declining. This context is more suitable for small-batch testing and incremental scaling decisions.
 
@@ -42,63 +38,44 @@ Rising ASIN sales indicate preference for the specific product variant, while pa
 
 ### Sales Estimation Data
 
-Sales estimation data was obtained from Helium 10 and Alibaba and includes estimated daily units sold, listing price, and derived revenue values. Approximately 30 days of daily data were analyzed. These estimates are not treated as precise measurements but are used to identify behavioral patterns such as consistency of purchases, directional demand trends, volatility, and potential price sensitivity.
+Sales estimation data was obtained from Helium 10 and Alibaba and includes estimated daily units sold, listing price, and derived revenue values. Approximately 30 days of daily data were analyzed. These estimates are not treated as precise measurements but are used to identify consistency of purchases and demand trends. 
 
 ### Best Seller Rank (BSR) Data
 
-BSR data provides a relative measure of product performance within its competitive environment. Between 30 and 90 days of BSR data were used to evaluate whether sales activity translated into improved competitive positioning or whether gains were absorbed by increased competition. While BSR does not indicate unit volume directly, it serves as a validation mechanism for demand persistence over time.
+BSR data provides a relative measure of product performance within its competitive environment. Between 30 and 90 days of BSR data were used to evaluate whether sales activity translated into improved competitive positioning within primary and subcategory. It is important to note here, however, that for this research only subcategory BSR data was used during the analysis. This is because sales fluctuations are more visible since the comparison is across similar BSRs. In the primary category this momentum would be slower.  
 
 ---
 
-## Focus on Subcategory BSR
-
-The analysis prioritizes subcategory BSR rather than primary category BSR. Primary category rankings aggregate a broad and heterogeneous set of products, resulting in slower movement and reduced sensitivity to short-term demand changes. Subcategory BSR compares more similar products, responds more quickly to sales fluctuations, and provides clearer early signals of momentum.
-
-Primary BSR was reviewed for context but excluded from the main visuals to maintain analytical focus on actionable demand indicators.
-
----
-
-## Visual Analysis Overview (Evidence-Based Interpretation)
+## Visual Analysis Overview 
 
 ### Daily Units Sold Trend
 
-The daily units sold visualization shows a clear upward shift in baseline demand over time. Early observations cluster in the low-to-mid teens, while later values consistently reach the high teens and low twenties, with multiple peaks approaching or exceeding 25 units per day. Despite normal daily volatility, there are no extended low-demand periods, indicating repeatable and sustained demand rather than isolated spikes.
-
+The daily units sold visualization shows a clear upward shift in baseline demand over time. Early observations remain around 10–16 units per day, while later values consistently reach 17–22 units, with multiple peaks approaching or exceeding 25 units per day. Despite normal daily volatility, there are no extended low-demand periods, indicating sustained and repeatable demand rather than isolated spikes.
 ---
 
 ### Estimated Revenue Trend
 
 Estimated revenue increases alongside unit sales and does not exhibit prolonged flat or declining periods. The alignment between rising unit volume and rising revenue indicates that sales growth is not driven solely by aggressive price discounting, reinforcing the conclusion that demand growth is economically meaningful.
-
 ---
 
 ### Price vs. Units Sold
 
-The price-versus-units analysis shows higher unit sales during periods of price reduction, confirming some degree of price sensitivity. However, unit sales do not collapse when prices rise, and baseline demand remains present across the full period. This suggests that demand is influenced by price but not entirely dependent on discounts.
-
+Estimated revenue rises alongside unit sales and does not show extended flat or declining periods. This indicates that higher sales volumes are generating higher revenue, suggesting that demand growth is not solely driven by price reductions and reflects economically meaningful demand.
 ---
 
 ### Weekly Subcategory BSR Trend
 
-The subcategory BSR trend fluctuates between approximately the 2,000 and 6,000 rank range. Periods of ranking improvement are followed by deterioration, indicating increasing competitive pressure. This demonstrates that while the product can sell, competitive forces remain active and dynamic.
-
+The subcategory BSR moves within a broad range and shows frequent ups and downs. Periods of improvement are often followed by declines, indicating active competition. This suggests that while the product can generate sales, competitive pressure in the market remains strong and ongoing.
 ---
 
 ### Sales and BSR Momentum Alignment
 
-When weekly sales totals are aligned with weekly subcategory BSR, higher sales do not consistently translate into improved rankings. Weeks with strong unit sales sometimes coincide with stagnant or worsening BSR positions. This divergence highlights the structural difference between the two metrics:
-
-- Sales estimation reflects absolute demand for the product  
-- BSR reflects relative performance against competitors  
-
-The lack of one-to-one alignment indicates that competitive activity absorbs part of the demand growth rather than demand being absent.
-
+When weekly sales are compared with weekly subcategory BSR, higher sales do not always lead to better rankings. Some weeks show strong sales while rankings remain unchanged or decline. This happens because sales measure how much the product sells on its own, while BSR reflects how it performs relative to competitors. The mismatch shows that competition is increasing and absorbing part of the demand growth, not that demand is missing.
 ---
 
 ### 7-Day Rolling Average Demand
 
-Applying a seven-day rolling average reduces daily volatility and reveals a sustained demand level that remains elevated throughout the observed period. The smoothed trend does not revert to early-period lows, supporting the interpretation that demand growth is structural rather than noise-driven.
-
+A seven-day rolling average calculates the average sales over the most recent seven days, updating this value each day. This smooths out normal day-to-day fluctuations and highlights the underlying demand trend. After applying this smoothing, demand remains consistently higher and does not return to earlier low levels, indicating that the increase in demand is sustained rather than driven by short-term noise.
 ---
 
 ### Average Daily Demand (Last 14 Days)
@@ -107,17 +84,10 @@ The final validation metric shows an average daily demand of **19 units sold** o
 
 ---
 
-## Integrated Interpretation
-
-Taken together, the sales estimation visuals establish that demand is consistent, repeatable, and sustained at a higher baseline than earlier periods. In contrast, the BSR visuals demonstrate that competitive pressure limits how fully this demand converts into ranking improvements. The divergence between strong sales patterns and inconsistent BSR gains explains why the product demonstrates momentum but remains constrained by market competition.
-
----
-
-## Conclusion
-
-The combined evidence indicates that the product demonstrates real and repeatable demand supported by stable recent sales and sustained performance after smoothing. Competitive pressure is present and increasing, but it does not eliminate demand momentum.
-
-Based on these findings, the product is suitable for small-batch inventory testing, particularly for new or risk-conscious FBA sellers seeking to validate demand before committing significant capital. 
+## Final Interpretation and Conclusion
+The analysis shows that demand for the product is consistent and remains higher over time, with customers purchasing regularly rather than in short-lived spikes. At the same time, the BSR analysis indicates that competition limits how much this demand translates into ranking improvements, as stronger sales do not always lead to better rankings.
+Overall, the product demonstrates real demand but operates in a competitive market. Demand momentum is present, even though competitive pressure affects visibility and ranking.
+Based on these findings, the product is a good candidate for small-batch inventory testing. This approach allows new or risk-conscious FBA sellers to confirm demand and observe competition before investing significant capital, supporting a cautious test-and-learn strategy rather than immediate large-scale scaling.
 
 ---
 
